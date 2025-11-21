@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> e2df3469a29933740dcc8f51b1ee41733135c88c
 # 🌾 AgriPredict: AI for Zero Hunger  
 ### *Forecasting Maize Yield for 500M Smallholder Farmers*
 
@@ -62,6 +65,7 @@
 ## 🌍 Slide 4: Impact Pathway — From Code to Communities
 
 ### Who Benefits?
+<<<<<<< HEAD
 
 | Stakeholder | Impact |
 |-------------|--------|
@@ -76,6 +80,21 @@
 
 > 🌾 **Goal: Empower 5M+ smallholder farmers with AI-powered foresight.**
 
+=======
+
+| Stakeholder | Impact |
+|-------------|--------|
+| **Farmers** | Optimize inputs, reduce loss, increase income (+15–30% estimated) |
+| **Governments** | Target subsidies & extension services pre-harvest |
+| **NGOs (WFP, FAO)** | Pre-position food aid in low-yield districts |
+
+### Roadmap:
+- 🚀 **2025**: Pilot in Ethiopia, Kenya, Malawi  
+- 🌐 **2026**: Scale to 10+ African countries  
+- 🤝 **2027**: Integrate with national agricultural advisory systems
+
+> 🌾 **Goal: Empower 5M+ smallholder farmers with AI-powered foresight.**
+>>>>>>> e2df3469a29933740dcc8f51b1ee41733135c88c
 
 
 ---
@@ -86,6 +105,7 @@ We’re not just building a model —
 **We’re growing a movement for AI with conscience.**
 
 ### We Invite You To:
+<<<<<<< HEAD
 - 🌐 **Try the live demo**: [agri-predict.streamlit.app](https://agri-predict.streamlit.app)  
 - 📂 **Contribute on GitHub**: [Here](https://github.com/muhajirhualis/PLP_FinalProject/blob/main/AgriPredict/)  
 - 💡 **Partner with us**: Bring AgriPredict to your region.
@@ -110,3 +130,27 @@ We’re not just building a model —
 > ✅ **100% reproducible. 100% transparent. 100% for impact.**
 
 ---
+=======
+- 🌐 **Try the live demo**: [agripredict.streamlit.app](https://your-link.streamlit.app)  
+- 📂 **Contribute on GitHub**: [github.com/your-username/agripredict-sdg2](https://github.com/your-username/agripredict-sdg2)  
+- 💡 **Partner with us**: Bring AgriPredict to your region.
+
+> 🌍 *Technology should serve humanity — especially those who feed it.*
+
+**Thank You**  
+`#SDG2` `#AIforGood` `#PLPAcademy`
+
+
+---
+
+## 📎 Appendix: Tech Stack & Openness
+
+- **Language**: Python  
+- **Libraries**: Scikit-learn, SHAP, Streamlit, Pandas  
+- **Data**: FAOStat, CHIRPS, SoilGrids, Google Earth Engine  
+- **License**: MIT (open-source, no vendor lock-in)  
+- **Deployment**: Streamlit Cloud (free), offline-capable
+
+> ✅ **100% reproducible. 100% transparent. 100% for impact.**
+
+>>>>>>> e2df3469a29933740dcc8f51b1ee41733135c88c
