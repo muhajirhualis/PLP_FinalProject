@@ -1,68 +1,108 @@
-# 🌾 AgriPredict Pitch Deck
+# 🌾 AgriPredict: AI for Zero Hunger  
+### *Forecasting Maize Yield for 500M Smallholder Farmers*
+
+> ✨ *“AI can be the bridge between innovation and sustainability.”*  
+> — UN Technology Envoy
 
 ---
 
-## Slide 1: The Crisis
+## 🔴 Slide 1: The Crisis — Why We Can’t Wait
 
-> ❌ **1 in 5 people in sub-Saharan Africa is hungry.**  
->  
-> 🌾 500 million smallholder farms produce 80% of food —  
-> yet they **farm blind**, with no yield forecasts.  
->  
-> 🔻 Result: Crop loss, poverty, wasted aid.
+❌ **237 million people in sub-Saharan Africa face hunger.**  
+🌾 **500 million smallholder farms** produce 80% of food — yet they **farm blind**.
 
-*(Background: Photo of smallholder farmer in field)*
+### The Gap:
+- National yield reports arrive **6+ months after harvest**  
+- No district-level forecasts exist  
+- Farmers guess → inputs wasted → crops lost → families go hungry  
 
----
-
-## Slide 2: The Gap
-
-National yield reports:
-- 📉 Released 6+ months after harvest  
-- 🗺️ District-level? Rare.  
-- 📱 Accessible to farmers? Never.
-
-👉 Farmers guess. Markets react too late.
-
-*(Icon: broken telescope with “?”)*
+> 🔔 **We’re missing the most powerful tool: foresight.**
 
 ---
 
-## Slide 3: Our Solution
+## 🟢 Slide 2: Our Solution — Simple, Scalable, Sustainable
 
-> ✅ **AgriPredict**  
-> *AI that forecasts maize yield 3 months early — using only free satellite + weather data.*
+✅ **AgriPredict**  
+*An open-source AI tool that forecasts maize yield **3 months before harvest** — using only free, publicly available data.*
 
-🔋 No sensors. No surveys. No cost.  
-📱 Delivered via SMS or simple web app.
+### How?
+1. 🛰️ Pull free data:  
+   - `NDVI` (Sentinel-2)  
+   - `Rainfall` (CHIRPS)  
+   - `Soil` (SoilGrids)  
+2. 🤖 Run lightweight ML model (**Random Forest**)  
+3. 📱 Deliver forecast via **SMS or simple web app** — no smartphone needed.
 
-*(Mockup: Phone showing “Yield: 2.4 t/ha ±0.3 — Good season!”)*
+> 💡 **No sensors. No surveys. No cost.** Built for the real world.
 
----
-
-## Slide 4: How It Works
-
-1. Pull **free data**: NDVI (Sentinel-2), Rain (CHIRPS), Soil (SoilGrids)
-2. Run **lightweight ML model** (Random Forest)
-3. Output: Yield + confidence + agronomic tip
-
-🎯 **Performance**:  
-- **MAE: 0.42 t/ha**  
-- **R²: 0.86**  
-- 3× more accurate than national averages
-
-*(Chart: Actual vs Predicted scatter plot)*
 
 ---
 
-## Slide 5: Join the Harvest
+## 📊 Slide 3: Proof It Works — Rigorous & Responsible
 
-We’re building AgriPredict to:
-- 🤝 Partner with FAO, WFP, and local agronomists  
-- 🌍 Scale to 10+ African countries by 2027  
-- 💡 Empower 5M+ farmers with foresight
+| Metric | Performance |
+|--------|-------------|
+| **MAE** | `0.42` tonnes/ha |
+| **R²** | `0.86` |
+| **Avg. Yield** | `2.1` t/ha |
+| **Relative Error** | **~20%** *(3× better than national averages)* |
 
-> 🌍 **AI can be the bridge between innovation and sustainability.**  
-> — UN Tech Envoy
+✅ **NDVI at peak flowering** = strongest predictor *(agronomically validated)*  
+✅ SHAP explainability: Transparent, trusted by farmers & agronomists
 
-**Let’s grow the future — together.**
+### 🌍 Ethical by Design:
+- 🔒 **Bias-mitigated**: Spatial holdouts (by country)  
+- ♿ **Inclusive**: USSD/SMS fallback for low-bandwidth areas  
+- ♻️ **Sustainable**: Lightweight model → low compute → low carbon
+
+
+---
+
+## 🌍 Slide 4: Impact Pathway — From Code to Communities
+
+### Who Benefits?
+
+| Stakeholder | Impact |
+|-------------|--------|
+| **Farmers** | Optimize inputs, reduce loss, increase income (+15–30% estimated) |
+| **Governments** | Target subsidies & extension services pre-harvest |
+| **NGOs (WFP, FAO)** | Pre-position food aid in low-yield districts |
+
+### Roadmap:
+- 🚀 **2025**: Pilot in Ethiopia, Kenya, Malawi  
+- 🌐 **2026**: Scale to 10+ African countries  
+- 🤝 **2027**: Integrate with national agricultural advisory systems
+
+> 🌾 **Goal: Empower 5M+ smallholder farmers with AI-powered foresight.**
+
+
+---
+
+## 🤝 Slide 5: Join the Harvest — Call to Action
+
+We’re not just building a model —  
+**We’re growing a movement for AI with conscience.**
+
+### We Invite You To:
+- 🌐 **Try the live demo**: [agripredict.streamlit.app](https://your-link.streamlit.app)  
+- 📂 **Contribute on GitHub**: [github.com/your-username/agripredict-sdg2](https://github.com/your-username/agripredict-sdg2)  
+- 💡 **Partner with us**: Bring AgriPredict to your region.
+
+> 🌍 *Technology should serve humanity — especially those who feed it.*
+
+**Thank You**  
+`#SDG2` `#AIforGood` `#PLPAcademy`
+
+
+---
+
+## 📎 Appendix: Tech Stack & Openness
+
+- **Language**: Python  
+- **Libraries**: Scikit-learn, SHAP, Streamlit, Pandas  
+- **Data**: FAOStat, CHIRPS, SoilGrids, Google Earth Engine  
+- **License**: MIT (open-source, no vendor lock-in)  
+- **Deployment**: Streamlit Cloud (free), offline-capable
+
+> ✅ **100% reproducible. 100% transparent. 100% for impact.**
+
